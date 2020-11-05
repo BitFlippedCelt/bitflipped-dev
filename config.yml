@@ -1,0 +1,66 @@
+baseURL: https://bitflipped.dev/
+languageCode: en-us
+title: BitFlipped Blog
+
+theme: hugo-PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+    minifyOutput: true
+  
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: BitFlipped Blog
+    description: Thoughts and ponderances from across my brain
+    author: BitFlipped <Greg Horejsi>
+
+    #images: "<link or path of image for opengraph, twitter-cards>"
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    comments: false
+    defaultTheme: auto
+    disableThemeToggle : false
+    disableSpecial1stPost : false
+
+    assets:
+        favicon: /favicon-32x32.png
+
+    label:
+        text: "Home"
+        icon: /images/bitflipped.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: BitFlipped, a Human Perspective
+        # imageUrl: '<img location>'
+        # imageTitle: my image
+        buttons:
+        - name: Posts
+          url: posts
+        - name: Tags
+          url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: Dreaming in code...
+        Content: '01000100011100100110010101100001011011010110100101101110011001110010000001101001011011100010000001100011011011110110010001100101001011100010111000101110'
+
+    socialIcons:
+        - name: gitlab
+          url: 'https://gitlab.com/Bitflipped'
+        - name: github
+          url: 'https://github.com/BitFlippedCelt'
+
+
+    # analytics:
+    #     google:
+    #     SiteVerificationTag: "XYZabc"
