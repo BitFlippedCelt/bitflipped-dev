@@ -4,7 +4,9 @@ stages:
 
 build:
   stage: build
-  image: klakegg/hugo
+  image: 
+    name: klakegg/hugo
+    entrypoint: [""]
   script:
     - hugo
   artifacts:
