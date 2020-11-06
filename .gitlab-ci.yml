@@ -19,5 +19,8 @@ build:
 gcs:
   stage: deploy
   image: google/cloud-sdk:slim
+  before_script:
+    - gcloud auth activate-service-account --key-file ${GCP_SERVICE_KEY}
+    - gcloud config set project ${GCP_PROJECT_ID}
   script:
-    - gsutil -m rsync -R public/ gs://bitflipped.dev
+    - gsutil -m rsync -R public/ gs://${GCP_BUCKET}
