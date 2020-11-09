@@ -21,6 +21,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: Thoughts and ponderances from across my brain
     author: BitFlipped <Greg Horejsi>
+    comments: true
 
     highlightjs: true
 
@@ -36,13 +37,13 @@ params:
 
     label:
       text: "Home"
-      #icon: /favicon-96x96.png
+      icon: /images/bitflipped.png
       iconHeight: 35
 
     # profile-mode
     profileMode:
       enabled: false
-      title: Flipping bits, a Human Perspective
+      title: Flipping the bits, a human perspective...
       imageUrl: /images/bitflipped.png
       # imageTitle: my image
       buttons:
