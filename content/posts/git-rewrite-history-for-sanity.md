@@ -13,7 +13,7 @@ tags:
 
 When was the last time you were preparing to finish polishing off that shiny new feature in preparation for merging to the release branch? Only to find yourself staring at a mountain of rebasing merges to pull in to your local branch?
 
-This is a pretty common situation when your team is leveraging a rebase centric methodology. Feverishly pushing small changes and stacking up those precious commits. All the while creating an ever growing list of rebase commits that you will eventually have to pour over and ensure not to break your code or that of others!
+This is a pretty common situation when your team is leveraging a rebase centric methodology. Feverishly pushing small changes and stacking up those precious commits. All the while creating an ever-growing list of rebase commits that you will eventually have to pour over and ensure not to break your code or that of others!
 
 ## Find your origin commit
 
