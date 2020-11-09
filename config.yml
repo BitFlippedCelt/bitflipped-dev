@@ -66,11 +66,6 @@ params:
       - name: buymeacoffee
         url: https://www.buymeacoffee.com/bitflipped
 
-
-    analytics:
-      google:
-      SiteVerificationTag: "G-1XKP8M3BN2"
-
 deployment:
   order:
     - .jpg$
