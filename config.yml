@@ -10,9 +10,6 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: G-1XKP8M3BN2
-disqusShortname: bitflipped
-
 minify:
     disableXML: true
     minifyOutput: true
