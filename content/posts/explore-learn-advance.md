@@ -1,6 +1,6 @@
 ---
 title: "Explore, Learn, Advance!"
-date: 2020-12-03T00:00:00-07:00
+date: 2020-12-03T06:30:00-07:00
 draft: false
 categories:
 - Personal Development
