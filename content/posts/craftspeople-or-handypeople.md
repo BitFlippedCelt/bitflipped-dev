@@ -1,5 +1,5 @@
 ---
-title: "Craftpeople or Handypeople?"
+title: "Craftspeople or Handypeople?"
 date: 2020-11-09T08:38:02-07:00
 draft: false
 categories:
