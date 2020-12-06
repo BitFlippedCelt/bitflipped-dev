@@ -10,6 +10,8 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
+pluralizelisttitles: false
+
 minify:
     disableXML: true
     minifyOutput: true
@@ -46,6 +48,8 @@ params:
       buttons:
       - name: Posts
         url: posts
+      - name: Tutorials
+        url: tutorials
       - name: Tags
         url: tags
 
@@ -53,6 +57,10 @@ params:
     homeInfoParams:
       Title: Flipping bits, a Human Perspective
       Content: '01000100011100100110010101100001011011010110100101101110011001110010000001101001011011100010000001100011011011110110010001100101001011100010111000101110'
+
+    mainSections:
+      - posts
+      - tutorials
 
     socialIcons:
       - name: linkedin
