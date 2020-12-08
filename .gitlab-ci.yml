@@ -11,7 +11,7 @@ build:
     name: klakegg/hugo
     entrypoint: [""]
   script:
-    - hugo
+    - hugo -e production
   artifacts:
     name: website
     paths:
