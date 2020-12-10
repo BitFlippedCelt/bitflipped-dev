@@ -1,6 +1,6 @@
 {{- $scratch := newScratch}}
 
-<b>{{ .Type | title | singularize }}</b>
+<b>[{{ .Type | title | singularize }}]</b>&nbsp;
 
 {{- if not .Date.IsZero -}}
 {{- $scratch.Add "meta" (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
