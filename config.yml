@@ -11,6 +11,7 @@ buildFuture: false
 buildExpired: false
 
 pluralizelisttitles: false
+sectionPagesMenu: "main"
 
 minify:
     disableXML: true

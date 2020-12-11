@@ -1,7 +1,6 @@
 ---
 title: "Git Rewrite History for Sanity"
 date: 2020-11-05T04:00:00-07:00
-draft: false
 categories:
 - SCM
 - Git
