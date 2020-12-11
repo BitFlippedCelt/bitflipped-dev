@@ -13,4 +13,4 @@ tags:
 
 # Headline
 
-Amazing content goes here
+Coming Soon!
