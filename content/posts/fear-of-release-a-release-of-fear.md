@@ -1,6 +1,6 @@
 ---
 title: "Fear of release; A release of fear!"
-date: 2021-02-12T10:00:00-07:00
+date: 2021-02-12T09:00:00-07:00
 draft: false
 categories:
 - Programming
