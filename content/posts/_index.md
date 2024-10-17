@@ -1,4 +1,3 @@
 ---
-title: "Ramblings"
-weight: 1
+title: "Blog"
 ---

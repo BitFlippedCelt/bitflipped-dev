@@ -1,0 +1,73 @@
+baseURL = 'https://bitflipped.dev/'
+languageCode = 'en-us'
+title = 'BitFlipped Thoughts'
+theme = 'hello-friend-ng'
+
+[pagination]
+pagerSize = 10
+
+[params]
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+homeSubtitle = "Ponderances from my brain to yours"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = false
+
+[[params.social]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/ghorejsi/"
+
+[[params.social]]
+name = "GitHub"
+url = "https://github.com/BitflippedCelt"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+tutorial = "tutorials"
+rambling = "ramblings"
+
+[languages]
+[languages.en]
+[languages.en.params]
+title = "BitFlipped Thoughts"
+keywords = "bitflipped, thoughts, ponderances, ideas, insights, opinions, hacks, snippets, software, technology, development, engineering, code, development, engineering, hacks, homepage, ideas, insights, opinions, ponderances, rants, snippets, software, technology, thoughts, tips, tricks, tutorials"
+description = "Thoughts and ponderances from my brain to yours"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
+[languages.en.params.logo]
+logoText = "cat /home/bitflipped/brain.md"
+logoHomeLink = "/"
+
+# And you can even create generic menu
+[menus]
+[[menu.main]]
+name = "Blog"
+pageRef = "/posts"
+weight = 10
+
+[[menu.main]]
+name = "Guides"
+pageRef = "/guides"
+weight = 20
+
+[[menu.main]]
+name = "About"
+pageRef = "/about"
+weight = 30
+
+[permalinks]
+tutorials = "/tutorials/:filename/"
+posts = "/posts/:filename/"
