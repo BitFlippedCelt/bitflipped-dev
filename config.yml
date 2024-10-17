@@ -2,7 +2,7 @@ baseURL: https://bitflipped.dev/
 languageCode: en-us
 title: BitFlipped Thoughts
 
-theme: hugo-PaperMod
+theme: PaperMod
 paginate: 5
 
 enableRobotsTXT: true
@@ -21,7 +21,6 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: Thoughts and ponderances from across my brain
     author: BitFlipped <Greg Horejsi>
-    comments: true
 
     highlightjs: true
 
