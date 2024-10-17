@@ -1,0 +1,49 @@
+name: Build and Deploy Blog
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+env:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo -e production
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: website
+          path: public/
+          retention-days: 7
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: website
+          path: public/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
